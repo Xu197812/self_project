@@ -1,0 +1,32 @@
+/* sample css file */
+.head{
+	margin-left: 70%;
+	margin-top: -20PX;
+}
+.head div{
+	float: left;
+}
+.inputname{
+	width: 300px;
+	height: 32px;
+}
+.buttondiv, .adddiv{
+	margin-top: 19px;
+	margin-left: 3px;
+}
+.foot div{
+	float: left;
+}
+/*.pagenodiv input{
+	margin-top: -20px;
+}*/
+.inputpageno{
+	margin-top: -19px;
+	width: 60px;
+	height: 32px;
+}
+.inputpagesize{
+	margin-top: -19px;
+	width: 60px;
+	height: 32px;
+}

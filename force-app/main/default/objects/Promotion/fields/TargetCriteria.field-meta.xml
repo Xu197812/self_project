@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TargetCriteria</fullName>
+    <inlineHelpText>定义购物车是否必须满足任意目标或所有目标的条件。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

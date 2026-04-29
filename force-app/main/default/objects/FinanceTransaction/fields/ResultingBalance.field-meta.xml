@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResultingBalance</fullName>
+    <inlineHelpText>因事件操作引起的引用实体的余额</inlineHelpText>
+</CustomField>

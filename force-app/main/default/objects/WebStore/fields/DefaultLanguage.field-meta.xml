@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultLanguage</fullName>
+    <inlineHelpText>翻译内容不可用时使用的语言。该值在创建商店期间配置。如果稍后更改默认语言，还必须在体验生成器中更改任何关联社区的默认语言。</inlineHelpText>
+</CustomField>

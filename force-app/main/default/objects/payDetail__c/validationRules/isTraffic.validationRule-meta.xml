@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isTraffic</fullName>
+    <active>true</active>
+    <description>是否是交通</description>
+    <errorConditionFormula>TEXT( costClass__c )==&apos;交通费&apos; &amp;&amp; ISBLANK(firstplace__c) &amp;&amp; ISBLANK( lastplace__c )</errorConditionFormula>
+    <errorMessage>输入交通费时，出发地和目的地必填</errorMessage>
+</ValidationRule>

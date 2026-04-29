@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinanceSystemName</fullName>
+    <inlineHelpText>用于确认财务交易的外部财务系统的名称。</inlineHelpText>
+</CustomField>

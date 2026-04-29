@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance</fullName>
+    <inlineHelpText>快照的引用实体的最终余额。如果财务交易的引用实体是贷项通知单、借项通知单、发票、付款或退款，将从财务交易的最终余额继承。</inlineHelpText>
+</CustomField>

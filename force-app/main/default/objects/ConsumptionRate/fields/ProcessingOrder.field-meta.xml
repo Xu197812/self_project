@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProcessingOrder</fullName>
+    <inlineHelpText>在多个费率中，处理使用费率的顺序。消耗率将从最低的处理顺序开始进行评价。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

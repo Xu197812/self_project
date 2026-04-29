@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PricingStrategy</fullName>
+    <inlineHelpText>选择向买方显示的价格：最佳价格，或优先级最高的价格手册中的价格。</inlineHelpText>
+</CustomField>

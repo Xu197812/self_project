@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RatingMethod</fullName>
+    <inlineHelpText>选择特定用例，以针对此计划对使用进行评定。这是类型字段的控制选项列表。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

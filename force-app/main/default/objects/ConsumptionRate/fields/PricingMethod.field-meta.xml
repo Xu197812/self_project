@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PricingMethod</fullName>
+    <inlineHelpText>选择根据单位或数量或者固定费率对使用进行定价</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

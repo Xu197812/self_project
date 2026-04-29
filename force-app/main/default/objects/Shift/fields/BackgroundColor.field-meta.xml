@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BackgroundColor</fullName>
+    <inlineHelpText>设置背景颜色，并在日程安排视图中高亮显示轮班。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

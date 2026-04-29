@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText>范围：计划价格仅使用应用于用量的层。阶梯：在指定界限内的使用将收到与层价格相同的定价。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

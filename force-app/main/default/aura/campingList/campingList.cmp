@@ -1,0 +1,54 @@
+<aura:component controller="CampingListController">
+        
+        
+	
+        <aura:handler name="addItem" event="c:addItemEvent" action="{!c.handleAddItem}"/>
+        
+        
+        <aura:attribute name="items" type="Camping_Item__c[]"/>
+        
+
+      
+        <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+        <c:campingListForm/>
+<!-- 	<form class="slds-form_stacked">
+            <lightning:input aura:id="campingform"
+            				 label="Name"
+                             value="{!v.newItem.Name}"
+                             required="true"/>
+
+            <lightning:input aura:id="campingform"
+            				 type="number" label="Quantity"
+                             min="1"
+                             value="{!v.newItem.Quantity__c}"
+                             required="true"/>
+
+            <lightning:input aura:id="campingform"
+            				 label="Price"
+            				 type="number"
+            				 value="{!v.newItem.Price__c}"
+            				 formatter="currency"/>
+            给复选框赋值用checked
+            <lightning:input aura:id="campingform"
+            				 type="checkbox" label="Packed?"
+                             checked="{!v.newItem.Packed__c}"
+                             />
+            <lightning:button variant="brand"
+            				  label="Create Camping Item"
+            				  onclick="{!c.createItem}">
+            </lightning:button>
+        </form> -->
+
+        <div class="slds-card slds-p-top--medium">
+    
+       
+        
+	        <section class="slds-card__body">
+	            <div id="list" class="row">
+	                <aura:iteration items="{!v.items}" var="item">
+	                	<c:campingListItem item="{!item}"/>
+	                </aura:iteration>
+	            </div>
+	        </section>
+    	</div>
+</aura:component>

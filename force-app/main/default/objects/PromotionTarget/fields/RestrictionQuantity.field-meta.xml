@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictionQuantity</fullName>
+    <inlineHelpText>如果调整类型为固定总价，则此字段为必填字段。如果调整类型为奖金产品，则此字段限于 1。对于任何其他调整类型，输入可以获得此折扣的产品数量，或者留空以表示数量不受限制。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

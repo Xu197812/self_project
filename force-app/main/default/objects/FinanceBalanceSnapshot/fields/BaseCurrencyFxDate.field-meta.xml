@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseCurrencyFxDate</fullName>
+    <inlineHelpText>用于确定外汇汇率的日期。定义此值，以便稍后用于计算货币换算。</inlineHelpText>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalCreditAmountUnapplied</fullName>
+    <inlineHelpText>从发票取消申请并退还到贷项通知单的金额。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

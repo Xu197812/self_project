@@ -1,0 +1,48 @@
+/* sample css file */
+
+.body{
+	background: white;
+    min-height: 100%;
+}
+.body table tr.title{
+    line-height: 28px;
+    background: #F7F8FA;
+    color: #666666;
+}
+.body table tr:not(:first-child){
+    line-height: 12px;
+    border-bottom: 1px solid rgb(233 234 236);
+}
+.body table tr th span,
+.body table tr td span,{
+    margin-left: 10px;
+}
+.body table tr td{
+    padding: 5px;
+}
+
+.body table tr.title{
+    background: #F7F8FA;
+    color: #666666;
+}
+.body table tr td span{
+    display: flex;
+}
+table tr th,
+table tr td{
+    padding-left: 5px;
+}
+.head{
+	margin-left: 75%;
+}
+.head div{
+	float: left;
+}
+.inputname{
+	width: 300px;
+	height: 32px;
+}
+.buttondiv{
+	margin-top: 19px;
+	margin-left: 3px;
+}

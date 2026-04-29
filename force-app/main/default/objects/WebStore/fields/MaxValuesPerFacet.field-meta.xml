@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxValuesPerFacet</fullName>
+    <inlineHelpText>设置显示每个筛选器的最大值数量。输入介于 1 到 100 之间的值。</inlineHelpText>
+</CustomField>

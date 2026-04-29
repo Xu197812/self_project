@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AttendeeLimit</fullName>
+    <inlineHelpText>输入可以参加组服务预约的服务预约出席者的最大数量。如果预约类别是组，则此字段为必填字段。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

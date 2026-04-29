@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BillingTerm</fullName>
+    <inlineHelpText>此占用计划应用的开单单位数量。例如，如果选定开单期限是月，输入 12，以在 12 个月内应用占用计划。将占用计划应用于多达 20 个季度、60 个月或 5 年。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:lightningQuickActionWithoutHeader,force:hasRecordId">
+
+	<c:hellowMassage message="you look nice today"></c:hellowMassage>
+	<c:campingHeader></c:campingHeader>
+	<c:campingList></c:campingList>
+
+
+
+</aura:component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrikethroughPricebookId</fullName>
+    <inlineHelpText>显示具有产品原始价目表价格和买方折扣价的价格手册。</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

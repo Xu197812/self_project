@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExclusivityType</fullName>
+    <inlineHelpText>要合并促销与其他促销，选择“否”。要防止相同类的促销进行合并，选择“类”。为使整个订单使用该促销，选择“全局”。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaginationSize</fullName>
+    <inlineHelpText>设置每页显示的最大结果数量。输入介于 1 到 100 之间的值。</inlineHelpText>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTiered</fullName>
+    <inlineHelpText>此设置是永久性操作；在促销保存后，无法更改。相反，创建新促销。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

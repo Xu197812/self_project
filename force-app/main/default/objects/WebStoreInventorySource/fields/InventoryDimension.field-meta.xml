@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InventoryDimension</fullName>
+    <inlineHelpText>用于确定产品可用性的库存水平。新商店默认为可订购。</inlineHelpText>
+</CustomField>

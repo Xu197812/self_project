@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsApproachingDiscountApplicable</fullName>
+    <inlineHelpText>通知客户他们的购物车总额是否接近折扣。要添加接近折扣提醒，请在促销限定符上设置阈值。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

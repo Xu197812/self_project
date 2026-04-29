@@ -1,0 +1,44 @@
+<template>
+	<div class="head">
+        <div class="inputdiv">
+            <lightning-input value={accName} class="inputname" onchange={changeinput}></lightning-input>
+        </div>
+        <div class="buttondiv">
+            <button class="slds-button slds-button_brand" onclick={searchAcc}>查询</button>
+        </div>
+        <div class="adddiv">
+            <button class="slds-button slds-button_brand">新建</button>
+        </div>
+    </div>
+
+
+
+	<div style="height: 400px;float: left;margin-top: 10px;">
+		<lightning-datatable
+			key-field="Id"
+			data={data}
+			columns={columns}
+			onrowselection = {getSelectedRecords}>
+		</lightning-datatable>
+	</div>
+	
+	<div class="foot"> 
+        <div class="sizediv">
+            <!-- <p>每页条数</p> -->
+            <lightning-input value={pageSize} class="inputpagesize" onchange={changepagesize}></lightning-input>
+        </div>
+
+		<div class="prediv">
+            <button class="slds-button slds-button_brand" onclick={prepage}>上一页</button>
+        </div>
+        <div class="pagenodiv">
+            <lightning-input value={pageNo} class="inputpageno" onchange={changepageno}></lightning-input>
+        </div>
+        <div class="nextdiv">
+            <button class="slds-button slds-button_brand" onclick={nextpage}>下一页</button>
+        </div>
+        <div class="deldiv">
+            <button class="slds-button slds-button_brand" onclick={delSelectedRecords}>删除</button>
+        </div>
+	</div>
+</template>

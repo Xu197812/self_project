@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isHotel3</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(costClass__c)==&apos;住宿费&apos; &amp;&amp; ISBLANK( explain__c )</errorConditionFormula>
+    <errorMessage>选择住宿费时解释说明必填</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalEntityId</fullName>
+    <inlineHelpText>与财务交易关联的法人实体。这是一个可选查询；您可以添加该查询，以将财务交易与 GL 规则关联，以处理外部分类账。</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

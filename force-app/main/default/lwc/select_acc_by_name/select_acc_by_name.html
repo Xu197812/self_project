@@ -1,0 +1,35 @@
+<template>
+    <div class="head">
+        <div class="inputdiv">
+            <lightning-input value={accName} data-id="inputvalue" class="inputname"></lightning-input>
+        </div>
+        <div class="buttondiv">
+            <button class="slds-button slds-button_brand" onclick={searchAcc}>查询</button>
+        </div>
+    </div>
+
+    <div class="body">
+        <table>
+            <tr class="title">
+                <td><input type="checkbox" name="Fruit"></td>
+                <td><span>客户名称</span></td>
+                <td><span>Phone</span></td>
+                <td class="right"><span>Industry</span></td>
+                <td class="right"><span>Type</span></td>
+            </tr>
+            <template for:each={AccountList} for:item="Account">
+                <tr key = {Account.Id}>
+                    <td><input type="checkbox" onclick={check} ></td>
+                    <td ><span>{Account.Name}</span></td>
+                    <td ><span>{Account.Phone}</span></td>
+                    <td ><span>{Account.Industry}</span></td>
+                    <td ><span>{Account.Type}</span></td>
+                </tr>
+            </template>
+        </table> 
+    </div>
+                
+    <lightning-spinner></lightning-spinner>
+
+
+</template>

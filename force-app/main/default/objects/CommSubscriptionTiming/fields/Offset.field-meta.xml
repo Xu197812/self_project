@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offset</fullName>
+    <inlineHelpText>在事件前或后或您应在特定周几与联系点进行通信的时间。在单位中，设置时间单位。例如，如果您将单位设置为“周”，并将偏移设置为“-4”，将在事件前 4 周与联系点通信。如果您将偏移设置为“4”，将在事件后 4 周与联系点通信。如果您将单位设置为“周几”并将偏移设置为“1”，将在周一与联系点进行通信。如果您将偏移设置为“7”，将在周日与联系点进行通信。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

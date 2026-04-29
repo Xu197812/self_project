@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalTaxesCapturedAtHeader</fullName>
+    <inlineHelpText>在交易表头层级计算的总税额。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>
