@@ -25,7 +25,7 @@ public with sharing class ApiSyncFeiShuFieldService {
         String url = 'https://open.feishu.cn/open-apis/bitable/v1/apps/' + appToken + '/tables/' + tableId + '/records?page_size=' + pageSize + '&field_names=' + fieldNames + '&automatic_fields=true&filter=' + filter + '&page_token=' + pageToken;
 
         HttpResponse response = httpRequest(url);
-       
+
         Map<String, Object> retrunMap = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
         Map<String, Object> data = retrunMap.get('data') == null? new Map<String, Object>() : (Map<String, Object>) retrunMap.get('data');
         List<Object> items = data.get('items') == null? new List<Object>() : (List<Object>) data.get('items');
@@ -54,15 +54,15 @@ public with sharing class ApiSyncFeiShuFieldService {
             String url = 'https://open.feishu.cn/open-apis/bitable/v1/apps/' + appToken + '/tables/' + tableId + '/records?page_size=' + pageSize + '&field_names=' + fieldNames + '&automatic_fields=true&filter=' + filter + '&page_token=' + pageToken;
 
             HttpResponse response = httpRequest(url);
-           
+
             Map<String, Object> retrunMap = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
             Map<String, Object> data = retrunMap.get('data') == null? new Map<String, Object>() : (Map<String, Object>) retrunMap.get('data');
             List<Object> items = data.get('items') == null? new List<Object>() : (List<Object>) data.get('items');
-            
+
             Datetime nt = Datetime.now();
             Long nowTime = nt.getTime();
             Long beforeTime = nt.getTime() - 1000 * 60 * 60;
-            
+
             for (Object item : items) {
                 Map<String, Object> itemMap = (Map<String, Object>) item;
                 Long lastUpdeteTime = itemMap.get('last_modified_time') == null ? null : (Long) itemMap.get('last_modified_time');
@@ -125,7 +125,7 @@ public with sharing class ApiSyncFeiShuFieldService {
         //         updataIdList.add(opportunity.Id);
         //     }
 
-        //     for(Database.SaveResult sr : srList) { 
+        //     for(Database.SaveResult sr : srList) {
         //         if (sr.isSuccess()) {
         //             updataIdList.remove(sr.getId());
         //         }
@@ -145,7 +145,7 @@ public with sharing class ApiSyncFeiShuFieldService {
 
 
     /**
-     * 获取访问接口token 
+     * 获取访问接口token
      */
     public static String getToken(){
         Map<String, String> body = new Map<String, String>();
@@ -182,7 +182,7 @@ public with sharing class ApiSyncFeiShuFieldService {
         req.setMethod('GET');
         req.setTimeout(120000);
 
-        Http http = new Http(); 
+        Http http = new Http();
         HttpResponse response = http.send(req);
         if(response.getStatusCode() != 200){
                 //异常由发起请求处做处理

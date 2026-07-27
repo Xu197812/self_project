@@ -1,6 +1,6 @@
 public with sharing class AccountController {
     public AccountController() {
-        
+
     }
 
     @AuraEnabled
@@ -47,13 +47,6 @@ public with sharing class AccountController {
         // return Database.delete();
     }
 
-
-
-
-
-
-
-    
     @AuraEnabled
     public static List<Account> SearchAccountList(){
         return [select Name,Id,Phone,Industry,Type from Account];

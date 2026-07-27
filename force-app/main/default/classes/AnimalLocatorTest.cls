@@ -4,19 +4,19 @@ global class AnimalLocatorTest{
     global class CalloutServiceMock implements HttpCalloutMock{
         global HttpResponse respond(HttpRequest request){
             HTTPResponse res = new HTTPResponse();
-            res.setBody('{"name":"cat","code":200}');     
+            res.setBody('{"name":"cat","code":200}');
             res.setStatusCode(200);
-            return res;   
+            return res;
         }
-    } 
+    }
     global class CalloutServiceMock2 implements HttpCalloutMock{
         global HttpResponse respond(HttpRequest request){
             HTTPResponse res = new HTTPResponse();
-            res.setBody('{"name":"cat","code":200}');     
+            res.setBody('{"name":"cat","code":200}');
             res.setStatusCode(100);
-            return res;   
+            return res;
         }
-    } 
+    }
 
     @IsTest
     static void testBehavior() {
